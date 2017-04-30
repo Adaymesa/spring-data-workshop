@@ -11,7 +11,8 @@ public class WebappInitializer extends AbstractAnnotationConfigDispatcherServlet
 
     @Override
     protected Class<?>[] getRootConfigClasses() {
-        return new Class<?>[] { RepositoryConfig.class, JsonMapperConfig.class};
+        return new Class<?>[] { RepositoryConfig.class, JsonMapperConfig.class,
+                PersistenceConfig.class, PropertyConfig.class};
     }
 
     @Override
