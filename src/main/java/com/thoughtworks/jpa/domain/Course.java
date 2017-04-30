@@ -1,6 +1,6 @@
 package com.thoughtworks.jpa.domain;
 
-import com.google.common.collect.Lists;
+import com.google.common.collect.Sets;
 
 import javax.persistence.Column;
 import javax.persistence.ConstraintMode;
@@ -17,6 +17,8 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 import java.util.List;
+import java.util.Objects;
+import java.util.Set;
 
 @Entity
 @Table(name = "course",
@@ -47,7 +49,7 @@ public class Course {
                     foreignKey = @ForeignKey(ConstraintMode.PROVIDER_DEFAULT))},
             inverseJoinColumns = {@JoinColumn(name = "student_id", nullable = false, referencedColumnName = "id",
                     foreignKey = @ForeignKey(ConstraintMode.PROVIDER_DEFAULT))})
-    private List<Student> students;
+    private Set<Student> students;
 
     Course() {
     }
@@ -58,7 +60,7 @@ public class Course {
         this.code = code;
         this.description = description;
         this.professor = professor;
-        this.students = Lists.newArrayList(students);
+        this.students = Sets.newHashSet(students);
     }
 
     public Long getId() {
@@ -81,7 +83,28 @@ public class Course {
         return professor;
     }
 
-    public List<Student> getStudents() {
+    public Set<Student> getStudents() {
         return students;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+
+        if (!(obj instanceof Course)) {
+            return false;
+        }
+
+        final Course other = (Course) obj;
+        return Objects.equals(code, other.code);
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 3;
+        hash = 53 * hash + (this.code != null ? this.code.hashCode() : 0);
+        return hash;
     }
 }

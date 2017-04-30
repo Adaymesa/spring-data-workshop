@@ -20,8 +20,8 @@ public class Student extends Person {
         super();
     }
 
-    public Student(String firstName, String lastName, LocalDate birth, LocalDate enrollment) {
-        super(firstName, lastName, birth);
+    public Student(String identification, String firstName, String lastName, LocalDate birth, LocalDate enrollment) {
+        super(identification, firstName, lastName, birth);
         this.enrollment = enrollment;
     }
 

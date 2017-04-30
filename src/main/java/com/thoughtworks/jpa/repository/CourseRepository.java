@@ -10,6 +10,6 @@ import java.util.List;
 @Repository
 public interface CourseRepository extends JpaRepository<Course, Long> {
     @Override
-    @Query("select c from Course c left join fetch c.professor left join fetch c.students")
+    @Query("select distinct c from Course c left join fetch c.professor left join fetch c.students")
     List<Course> findAll();
 }

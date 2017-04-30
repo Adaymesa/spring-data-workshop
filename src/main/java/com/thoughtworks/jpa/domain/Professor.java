@@ -1,6 +1,5 @@
 package com.thoughtworks.jpa.domain;
 
-
 import javax.persistence.Column;
 import javax.persistence.ConstraintMode;
 import javax.persistence.Entity;
@@ -25,8 +24,8 @@ public class Professor extends Person {
         super();
     }
 
-    public Professor(String firstName, String lastName, LocalDate birth, Type type) {
-        super(firstName, lastName, birth);
+    public Professor(String identification, String firstName, String lastName, LocalDate birth, Type type) {
+        super(identification, firstName, lastName, birth);
         this.type = type;
     }
 
