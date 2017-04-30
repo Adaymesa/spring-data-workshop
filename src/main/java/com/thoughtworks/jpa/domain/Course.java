@@ -2,6 +2,7 @@ package com.thoughtworks.jpa.domain;
 
 import com.google.common.collect.Sets;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.ConstraintMode;
 import javax.persistence.Entity;
@@ -35,14 +36,16 @@ public class Course {
     private String code;
     @Column(name = "description", columnDefinition = "TEXT", nullable = false)
     private String description;
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @ManyToOne(fetch = FetchType.LAZY, optional = false,
+            cascade = {CascadeType.PERSIST, CascadeType.DETACH, CascadeType.MERGE})
     @JoinTable(name = "teaches",
             joinColumns = {@JoinColumn(name = "course_id", nullable = false, referencedColumnName = "id",
                     foreignKey = @ForeignKey(ConstraintMode.PROVIDER_DEFAULT))},
             inverseJoinColumns = {@JoinColumn(name = "professor_id", nullable = false, referencedColumnName = "id",
                     foreignKey = @ForeignKey(ConstraintMode.PROVIDER_DEFAULT))})
     private Professor professor;
-    @ManyToMany(fetch = FetchType.LAZY)
+    @ManyToMany(fetch = FetchType.LAZY,
+            cascade = {CascadeType.PERSIST, CascadeType.DETACH, CascadeType.MERGE})
     @JoinTable(name = "enrolled",
             uniqueConstraints = {@UniqueConstraint(name = "ux_course_student", columnNames = {"course_id", "student_id"})},
             joinColumns = {@JoinColumn(name = "course_id", nullable = false, referencedColumnName = "id",
@@ -69,6 +72,10 @@ public class Course {
 
     public String getName() {
         return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getCode() {

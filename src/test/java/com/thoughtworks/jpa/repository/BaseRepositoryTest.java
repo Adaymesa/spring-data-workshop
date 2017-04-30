@@ -20,6 +20,8 @@ import org.springframework.test.context.support.DependencyInjectionTestExecution
 import org.springframework.test.context.support.DirtiesContextTestExecutionListener;
 import org.springframework.test.context.transaction.TransactionalTestExecutionListener;
 
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;
 import java.io.IOException;
 import java.util.Properties;
@@ -36,6 +38,13 @@ import java.util.Properties;
 @Transactional
 @Rollback
 public abstract class BaseRepositoryTest {
+    @PersistenceContext
+    private EntityManager entityManager;
+
+    protected void detachedEntity(Object entity) {
+        this.entityManager.detach(entity);
+    }
+
     @Configuration
     @Import({PersistenceConfig.class, RepositoryConfig.class})
     public static class ContextConfiguration {

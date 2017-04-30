@@ -1,0 +1,5 @@
+<dataset>
+    <person id="1" identification="professor_id" first_name="First" last_name="Last"
+            date_of_birth="1950-02-03"/>
+    <professor id="1" type="ADJUNCT"/>
+</dataset>

@@ -81,4 +81,12 @@ public class Person {
         hash = 53 * hash + (identification != null ? identification.hashCode() : 0);
         return hash;
     }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
 }

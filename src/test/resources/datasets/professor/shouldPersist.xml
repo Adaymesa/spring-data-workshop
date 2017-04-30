@@ -1,0 +1,10 @@
+<dataset>
+    <person id="1" identification="identification" first_name="First Name" last_name="Last Name"
+            date_of_birth="1983-01-03"/>
+    <professor id="1" type="ADJUNCT"/>
+    <!-- if no assertion mode is specified, by default, comparison is strict, so empty tables are needed here -->
+    <course/>
+    <enrolled/>
+    <teaches/>
+    <student/>
+</dataset>
