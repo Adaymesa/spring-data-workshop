@@ -1,0 +1,17 @@
+<dataset>
+    <person id="2" identification="identification1" first_name="First Name" last_name="Snape"
+            date_of_birth="1983-01-03"/>
+    <professor id="2" type="ADJUNCT"/>
+    <person id="3" identification="identification2" first_name="First Name" last_name="snapE"
+            date_of_birth="1983-01-03"/>
+    <professor id="3" type="ADJUNCT"/>
+    <person id="1" identification="identification3" first_name="First Name" last_name="Last Name"
+            date_of_birth="1983-01-03"/>
+    <professor id="1" type="ADJUNCT"/>
+    <person id="4" identification="identification4" first_name="First Name" last_name="Last Name"
+            date_of_birth="1983-01-03"/>
+    <professor id="4" type="ADJUNCT"/>
+    <person id="5" identification="identification5" first_name="First Name" last_name="Last Name"
+            date_of_birth="1983-01-03"/>
+    <professor id="5" type="ADJUNCT"/>
+</dataset>
