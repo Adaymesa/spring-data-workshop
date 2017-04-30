@@ -26,6 +26,6 @@ public class CourseController {
     @RequestMapping("/{id}")
     @ResponseBody
     public Course getCourse(@PathVariable("id") Long id) {
-        return this.repository.findById(id);
+        return this.repository.findOne(id);
     }
 }

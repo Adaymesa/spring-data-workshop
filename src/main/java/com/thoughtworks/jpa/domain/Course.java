@@ -3,6 +3,7 @@ package com.thoughtworks.jpa.domain;
 
 import com.google.common.collect.Lists;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.ConstraintMode;
 import javax.persistence.Entity;

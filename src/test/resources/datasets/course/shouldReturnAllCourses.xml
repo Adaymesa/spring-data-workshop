@@ -1,0 +1,14 @@
+<dataset>
+    <course id="1" name="Course 1" code="course01" description="description"/>
+    <course id="2" name="Course 2" code="course02" description="description"/>
+    <course id="3" name="Course 3" code="course03" description="description"/>
+    <course id="4" name="Course 3" code="course04" description="description"/>
+    <course id="5" name="Course 4" code="course05" description="description"/>
+    <course id="6" name="Course 5" code="course06" description="description"/>
+    <course id="7" name="Course 6" code="course07" description="description"/>
+    <course id="8" name="Course 7" code="course08" description="description"/>
+    <course id="9" name="Course 8" code="course09" description="description"/>
+    <course id="10" name="Course 9" code="course10" description="description"/>
+    <course id="11" name="Course 10" code="course11" description="description"/>
+    <course id="12" name="Course 11" code="course12" description="description"/>
+</dataset>

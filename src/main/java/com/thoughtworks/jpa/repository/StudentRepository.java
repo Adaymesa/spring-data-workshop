@@ -1,9 +1,10 @@
 package com.thoughtworks.jpa.repository;
 
-import com.thoughtworks.jpa.domain.Course;
+
+import com.thoughtworks.jpa.domain.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface CourseRepository extends JpaRepository<Course, Long> {
+public interface StudentRepository extends JpaRepository<Student, Long>{
 }
