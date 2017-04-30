@@ -1,0 +1,14 @@
+<dataset>
+    <person identification="prof_id" first_name="Severus" last_name="Snape"
+            date_of_birth="1950-01-01"/>
+    <person identification="student1" first_name="Harry" last_name="Potter"
+            date_of_birth="1983-01-01"/>
+    <person identification="student2" first_name="Ron" last_name="Weasly"
+            date_of_birth="1983-01-01"/>
+    <student enrollment_date="2000-08-01"/>
+    <student enrollment_date="2000-08-01"/>
+    <professor type="ADJUNCT"/>
+    <course id="1" name="Dark Arts II" code="MAG501" description="Come to the Dark Side, we have cookies"/>
+    <teaches course_id="1"/>
+    <enrolled/>
+</dataset>

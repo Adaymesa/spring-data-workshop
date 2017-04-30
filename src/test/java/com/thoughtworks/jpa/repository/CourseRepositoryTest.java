@@ -81,4 +81,25 @@ public class CourseRepositoryTest extends BaseRepositoryTest {
         newProfessor.setLastName("Snape");
         repository.saveAndFlush(course);
     }
+
+    @Test
+    @ExpectedDatabase(value = "classpath:datasets/course/shouldCascadeMergeAfterDetachSideEffect.xml",
+            assertionMode = NON_STRICT)
+    public void shouldCascadeMergeAfterDetachSideEffect() {
+        Professor newProfessor = new Professor("prof_id","Tom", "Marvolo",
+                of(1950, 1, 1), ADJUNCT);
+        Student harry = new Student("student1", "Harry", "Potter", of(1983, 1, 1),
+                of(2000, 8, 1));
+        Student ron = new Student("student2", "Ron", "Weasly", of(1983, 1, 1),
+                of(2000, 8, 1));
+        Course course = new Course("Dark Arts", "MAG501", "Come to the Dark Side, we have cookies",
+                newProfessor, Lists.newArrayList(harry, ron));
+        repository.saveAndFlush(course);
+        detachedEntity(course);
+        course.setName("Dark Arts II");
+        newProfessor.setFirstName("Severus");
+        newProfessor.setLastName("Snape");
+        course.getStudents().clear();
+        repository.saveAndFlush(course);
+    }
 }
