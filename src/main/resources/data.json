@@ -1,0 +1,942 @@
+[
+  {
+    "students": [
+      {
+        "birth": "2001-02-01",
+        "enrollment": "2015-08-01",
+        "lastName": "Gardner",
+        "firstName": "Sims",
+        "id": 0
+      },
+      {
+        "birth": "2009-05-04",
+        "enrollment": "2015-08-01",
+        "lastName": "Horn",
+        "firstName": "Tamara",
+        "id": 1
+      },
+      {
+        "birth": "1993-08-15",
+        "enrollment": "2015-08-01",
+        "lastName": "Cook",
+        "firstName": "Sawyer",
+        "id": 2
+      },
+      {
+        "birth": "1982-12-16",
+        "enrollment": "2015-08-01",
+        "lastName": "Saunders",
+        "firstName": "Earnestine",
+        "id": 3
+      },
+      {
+        "birth": "1990-09-02",
+        "enrollment": "2015-08-01",
+        "lastName": "Frederick",
+        "firstName": "Faulkner",
+        "id": 4
+      },
+      {
+        "birth": "1978-04-25",
+        "enrollment": "2015-08-01",
+        "lastName": "Richmond",
+        "firstName": "Gross",
+        "id": 5
+      },
+      {
+        "birth": "1977-09-06",
+        "enrollment": "2015-08-01",
+        "lastName": "Pickett",
+        "firstName": "Amber",
+        "id": 6
+      },
+      {
+        "birth": "1976-12-06",
+        "enrollment": "2015-08-01",
+        "lastName": "Blackwell",
+        "firstName": "Hallie",
+        "id": 7
+      },
+      {
+        "birth": "2008-07-03",
+        "enrollment": "2015-08-01",
+        "lastName": "Byrd",
+        "firstName": "Stone",
+        "id": 8
+      },
+      {
+        "birth": "1987-09-22",
+        "enrollment": "2015-08-01",
+        "lastName": "Marquez",
+        "firstName": "Justine",
+        "id": 9
+      },
+      {
+        "birth": "2008-08-03",
+        "enrollment": "2015-08-01",
+        "lastName": "Ross",
+        "firstName": "Dominguez",
+        "id": 10
+      },
+      {
+        "birth": "1996-09-26",
+        "enrollment": "2015-08-01",
+        "lastName": "Townsend",
+        "firstName": "Alisa",
+        "id": 11
+      },
+      {
+        "birth": "2007-10-18",
+        "enrollment": "2015-08-01",
+        "lastName": "Shannon",
+        "firstName": "Boyd",
+        "id": 12
+      },
+      {
+        "birth": "1978-05-25",
+        "enrollment": "2015-08-01",
+        "lastName": "Gibbs",
+        "firstName": "Woodward",
+        "id": 13
+      },
+      {
+        "birth": "2008-01-30",
+        "enrollment": "2015-08-01",
+        "lastName": "Rivers",
+        "firstName": "Carla",
+        "id": 14
+      },
+      {
+        "birth": "1975-02-23",
+        "enrollment": "2015-08-01",
+        "lastName": "Santos",
+        "firstName": "Collier",
+        "id": 15
+      },
+      {
+        "birth": "2010-02-11",
+        "enrollment": "2015-08-01",
+        "lastName": "Clemons",
+        "firstName": "Rogers",
+        "id": 16
+      },
+      {
+        "birth": "1979-12-07",
+        "enrollment": "2015-08-01",
+        "lastName": "Snyder",
+        "firstName": "Cristina",
+        "id": 17
+      },
+      {
+        "birth": "1988-05-27",
+        "enrollment": "2015-08-01",
+        "lastName": "Meyers",
+        "firstName": "Schneider",
+        "id": 18
+      },
+      {
+        "birth": "2006-01-30",
+        "enrollment": "2015-08-01",
+        "lastName": "Burgess",
+        "firstName": "Washington",
+        "id": 19
+      },
+      {
+        "birth": "2005-03-10",
+        "enrollment": "2015-08-01",
+        "lastName": "Arnold",
+        "firstName": "Lilian",
+        "id": 20
+      },
+      {
+        "birth": "1983-07-31",
+        "enrollment": "2015-08-01",
+        "lastName": "Rodriguez",
+        "firstName": "Miles",
+        "id": 21
+      },
+      {
+        "birth": "2007-04-24",
+        "enrollment": "2015-08-01",
+        "lastName": "Hill",
+        "firstName": "Wilkerson",
+        "id": 22
+      },
+      {
+        "birth": "2015-02-16",
+        "enrollment": "2015-08-01",
+        "lastName": "Landry",
+        "firstName": "Velez",
+        "id": 23
+      },
+      {
+        "birth": "1982-07-04",
+        "enrollment": "2015-08-01",
+        "lastName": "Ashley",
+        "firstName": "Nielsen",
+        "id": 24
+      }
+    ],
+    "professor": {
+      "lastName": "Mcbride",
+      "firstName": "Velazquez",
+      "id": 0
+    },
+    "description": "Bacon ipsum dolor amet beef ribs leberkas alcatra swine, tri-tip landjaeger kevin t-bone short loin pastrami sirloin. Turkey capicola beef ribs short ribs, pig tail flank ball tip spare ribs sirloin pork chop. Turkey jerky kielbasa, prosciutto boudin meatloaf tri-tip. Drumstick pork chop kielbasa picanha tongue shankle bresaola corned beef pancetta ball tip flank jowl shank. Ribeye meatball pork chop, turkey tenderloin ball tip strip steak corned beef pork loin picanha shoulder drumstick frankfurter filet mignon. Pastrami alcatra filet mignon doner spare ribs jerky cow. Andouille kielbasa corned beef pig, jowl frankfurter pancetta meatball porchetta doner. Beef ribs cupim t-bone drumstick capicola kielbasa tenderloin swine turkey. Ground round pork tongue venison short loin biltong fatback strip steak beef boudin andouille shankle. Boudin jerky bacon, shoulder filet mignon shankle pork chop venison pork shank t-bone kielbasa ham pork loin. Kevin frankfurter tenderloin landjaeger tri-tip.",
+    "code": "MAG201",
+    "name": "Astronomy",
+    "id": 1
+  },
+  {
+    "students": [
+      {
+        "birth": "2001-02-01",
+        "enrollment": "2015-08-01",
+        "lastName": "Gardner",
+        "firstName": "Sims",
+        "id": 0
+      },
+      {
+        "birth": "2009-05-04",
+        "enrollment": "2015-08-01",
+        "lastName": "Horn",
+        "firstName": "Tamara",
+        "id": 1
+      },
+      {
+        "birth": "1993-08-15",
+        "enrollment": "2015-08-01",
+        "lastName": "Cook",
+        "firstName": "Sawyer",
+        "id": 2
+      },
+      {
+        "birth": "1982-12-16",
+        "enrollment": "2015-08-01",
+        "lastName": "Saunders",
+        "firstName": "Earnestine",
+        "id": 3
+      },
+      {
+        "birth": "1990-09-02",
+        "enrollment": "2015-08-01",
+        "lastName": "Frederick",
+        "firstName": "Faulkner",
+        "id": 4
+      },
+      {
+        "birth": "1978-04-25",
+        "enrollment": "2015-08-01",
+        "lastName": "Richmond",
+        "firstName": "Gross",
+        "id": 5
+      },
+      {
+        "birth": "1977-09-06",
+        "enrollment": "2015-08-01",
+        "lastName": "Pickett",
+        "firstName": "Amber",
+        "id": 6
+      },
+      {
+        "birth": "1976-12-06",
+        "enrollment": "2015-08-01",
+        "lastName": "Blackwell",
+        "firstName": "Hallie",
+        "id": 7
+      },
+      {
+        "birth": "2008-07-03",
+        "enrollment": "2015-08-01",
+        "lastName": "Byrd",
+        "firstName": "Stone",
+        "id": 8
+      },
+      {
+        "birth": "1987-09-22",
+        "enrollment": "2015-08-01",
+        "lastName": "Marquez",
+        "firstName": "Justine",
+        "id": 9
+      },
+      {
+        "birth": "2008-08-03",
+        "enrollment": "2015-08-01",
+        "lastName": "Ross",
+        "firstName": "Dominguez",
+        "id": 10
+      },
+      {
+        "birth": "1996-09-26",
+        "enrollment": "2015-08-01",
+        "lastName": "Townsend",
+        "firstName": "Alisa",
+        "id": 11
+      },
+      {
+        "birth": "2007-10-18",
+        "enrollment": "2015-08-01",
+        "lastName": "Shannon",
+        "firstName": "Boyd",
+        "id": 12
+      },
+      {
+        "birth": "1978-05-25",
+        "enrollment": "2015-08-01",
+        "lastName": "Gibbs",
+        "firstName": "Woodward",
+        "id": 13
+      },
+      {
+        "birth": "2008-01-30",
+        "enrollment": "2015-08-01",
+        "lastName": "Rivers",
+        "firstName": "Carla",
+        "id": 14
+      },
+      {
+        "birth": "1975-02-23",
+        "enrollment": "2015-08-01",
+        "lastName": "Santos",
+        "firstName": "Collier",
+        "id": 15
+      },
+      {
+        "birth": "2010-02-11",
+        "enrollment": "2015-08-01",
+        "lastName": "Clemons",
+        "firstName": "Rogers",
+        "id": 16
+      },
+      {
+        "birth": "1979-12-07",
+        "enrollment": "2015-08-01",
+        "lastName": "Snyder",
+        "firstName": "Cristina",
+        "id": 17
+      },
+      {
+        "birth": "1988-05-27",
+        "enrollment": "2015-08-01",
+        "lastName": "Meyers",
+        "firstName": "Schneider",
+        "id": 18
+      },
+      {
+        "birth": "2006-01-30",
+        "enrollment": "2015-08-01",
+        "lastName": "Burgess",
+        "firstName": "Washington",
+        "id": 19
+      },
+      {
+        "birth": "2005-03-10",
+        "enrollment": "2015-08-01",
+        "lastName": "Arnold",
+        "firstName": "Lilian",
+        "id": 20
+      },
+      {
+        "birth": "1983-07-31",
+        "enrollment": "2015-08-01",
+        "lastName": "Rodriguez",
+        "firstName": "Miles",
+        "id": 21
+      },
+      {
+        "birth": "2007-04-24",
+        "enrollment": "2015-08-01",
+        "lastName": "Hill",
+        "firstName": "Wilkerson",
+        "id": 22
+      },
+      {
+        "birth": "2015-02-16",
+        "enrollment": "2015-08-01",
+        "lastName": "Landry",
+        "firstName": "Velez",
+        "id": 23
+      },
+      {
+        "birth": "1982-07-04",
+        "enrollment": "2015-08-01",
+        "lastName": "Ashley",
+        "firstName": "Nielsen",
+        "id": 24
+      }
+    ],
+    "professor": {
+      "lastName": "Cohen",
+      "firstName": "Ilene",
+      "id": 1
+    },
+    "description": "Bacon ipsum dolor amet beef ribs leberkas alcatra swine, tri-tip landjaeger kevin t-bone short loin pastrami sirloin. Turkey capicola beef ribs short ribs, pig tail flank ball tip spare ribs sirloin pork chop. Turkey jerky kielbasa, prosciutto boudin meatloaf tri-tip. Drumstick pork chop kielbasa picanha tongue shankle bresaola corned beef pancetta ball tip flank jowl shank. Ribeye meatball pork chop, turkey tenderloin ball tip strip steak corned beef pork loin picanha shoulder drumstick frankfurter filet mignon. Pastrami alcatra filet mignon doner spare ribs jerky cow. Andouille kielbasa corned beef pig, jowl frankfurter pancetta meatball porchetta doner. Beef ribs cupim t-bone drumstick capicola kielbasa tenderloin swine turkey. Ground round pork tongue venison short loin biltong fatback strip steak beef boudin andouille shankle. Boudin jerky bacon, shoulder filet mignon shankle pork chop venison pork shank t-bone kielbasa ham pork loin. Kevin frankfurter tenderloin landjaeger tri-tip.",
+    "code": "MAG106",
+    "name": "Charms",
+    "id": 2
+  },
+  {
+    "students": [
+      {
+        "birth": "2001-02-01",
+        "enrollment": "2015-08-01",
+        "lastName": "Gardner",
+        "firstName": "Sims",
+        "id": 0
+      },
+      {
+        "birth": "2009-05-04",
+        "enrollment": "2015-08-01",
+        "lastName": "Horn",
+        "firstName": "Tamara",
+        "id": 1
+      },
+      {
+        "birth": "1993-08-15",
+        "enrollment": "2015-08-01",
+        "lastName": "Cook",
+        "firstName": "Sawyer",
+        "id": 2
+      },
+      {
+        "birth": "1982-12-16",
+        "enrollment": "2015-08-01",
+        "lastName": "Saunders",
+        "firstName": "Earnestine",
+        "id": 3
+      },
+      {
+        "birth": "1990-09-02",
+        "enrollment": "2015-08-01",
+        "lastName": "Frederick",
+        "firstName": "Faulkner",
+        "id": 4
+      },
+      {
+        "birth": "1978-04-25",
+        "enrollment": "2015-08-01",
+        "lastName": "Richmond",
+        "firstName": "Gross",
+        "id": 5
+      },
+      {
+        "birth": "1977-09-06",
+        "enrollment": "2015-08-01",
+        "lastName": "Pickett",
+        "firstName": "Amber",
+        "id": 6
+      },
+      {
+        "birth": "1976-12-06",
+        "enrollment": "2015-08-01",
+        "lastName": "Blackwell",
+        "firstName": "Hallie",
+        "id": 7
+      },
+      {
+        "birth": "2008-07-03",
+        "enrollment": "2015-08-01",
+        "lastName": "Byrd",
+        "firstName": "Stone",
+        "id": 8
+      },
+      {
+        "birth": "1987-09-22",
+        "enrollment": "2015-08-01",
+        "lastName": "Marquez",
+        "firstName": "Justine",
+        "id": 9
+      },
+      {
+        "birth": "2008-08-03",
+        "enrollment": "2015-08-01",
+        "lastName": "Ross",
+        "firstName": "Dominguez",
+        "id": 10
+      },
+      {
+        "birth": "1996-09-26",
+        "enrollment": "2015-08-01",
+        "lastName": "Townsend",
+        "firstName": "Alisa",
+        "id": 11
+      },
+      {
+        "birth": "2007-10-18",
+        "enrollment": "2015-08-01",
+        "lastName": "Shannon",
+        "firstName": "Boyd",
+        "id": 12
+      },
+      {
+        "birth": "1978-05-25",
+        "enrollment": "2015-08-01",
+        "lastName": "Gibbs",
+        "firstName": "Woodward",
+        "id": 13
+      },
+      {
+        "birth": "2008-01-30",
+        "enrollment": "2015-08-01",
+        "lastName": "Rivers",
+        "firstName": "Carla",
+        "id": 14
+      },
+      {
+        "birth": "1975-02-23",
+        "enrollment": "2015-08-01",
+        "lastName": "Santos",
+        "firstName": "Collier",
+        "id": 15
+      },
+      {
+        "birth": "2010-02-11",
+        "enrollment": "2015-08-01",
+        "lastName": "Clemons",
+        "firstName": "Rogers",
+        "id": 16
+      },
+      {
+        "birth": "1979-12-07",
+        "enrollment": "2015-08-01",
+        "lastName": "Snyder",
+        "firstName": "Cristina",
+        "id": 17
+      },
+      {
+        "birth": "1988-05-27",
+        "enrollment": "2015-08-01",
+        "lastName": "Meyers",
+        "firstName": "Schneider",
+        "id": 18
+      },
+      {
+        "birth": "2006-01-30",
+        "enrollment": "2015-08-01",
+        "lastName": "Burgess",
+        "firstName": "Washington",
+        "id": 19
+      },
+      {
+        "birth": "2005-03-10",
+        "enrollment": "2015-08-01",
+        "lastName": "Arnold",
+        "firstName": "Lilian",
+        "id": 20
+      },
+      {
+        "birth": "1983-07-31",
+        "enrollment": "2015-08-01",
+        "lastName": "Rodriguez",
+        "firstName": "Miles",
+        "id": 21
+      },
+      {
+        "birth": "2007-04-24",
+        "enrollment": "2015-08-01",
+        "lastName": "Hill",
+        "firstName": "Wilkerson",
+        "id": 22
+      },
+      {
+        "birth": "2015-02-16",
+        "enrollment": "2015-08-01",
+        "lastName": "Landry",
+        "firstName": "Velez",
+        "id": 23
+      },
+      {
+        "birth": "1982-07-04",
+        "enrollment": "2015-08-01",
+        "lastName": "Ashley",
+        "firstName": "Nielsen",
+        "id": 24
+      }
+    ],
+    "professor": {
+      "lastName": "Matthews",
+      "firstName": "Dianna",
+      "id": 2
+    },
+    "description": "Bacon ipsum dolor amet beef ribs leberkas alcatra swine, tri-tip landjaeger kevin t-bone short loin pastrami sirloin. Turkey capicola beef ribs short ribs, pig tail flank ball tip spare ribs sirloin pork chop. Turkey jerky kielbasa, prosciutto boudin meatloaf tri-tip. Drumstick pork chop kielbasa picanha tongue shankle bresaola corned beef pancetta ball tip flank jowl shank. Ribeye meatball pork chop, turkey tenderloin ball tip strip steak corned beef pork loin picanha shoulder drumstick frankfurter filet mignon. Pastrami alcatra filet mignon doner spare ribs jerky cow. Andouille kielbasa corned beef pig, jowl frankfurter pancetta meatball porchetta doner. Beef ribs cupim t-bone drumstick capicola kielbasa tenderloin swine turkey. Ground round pork tongue venison short loin biltong fatback strip steak beef boudin andouille shankle. Boudin jerky bacon, shoulder filet mignon shankle pork chop venison pork shank t-bone kielbasa ham pork loin. Kevin frankfurter tenderloin landjaeger tri-tip.",
+    "code": "MAG301",
+    "name": "Dark Arts",
+    "id": 3
+  },
+  {
+    "students": [
+      {
+        "birth": "2001-02-01",
+        "enrollment": "2015-08-01",
+        "lastName": "Gardner",
+        "firstName": "Sims",
+        "id": 0
+      },
+      {
+        "birth": "2009-05-04",
+        "enrollment": "2015-08-01",
+        "lastName": "Horn",
+        "firstName": "Tamara",
+        "id": 1
+      },
+      {
+        "birth": "1993-08-15",
+        "enrollment": "2015-08-01",
+        "lastName": "Cook",
+        "firstName": "Sawyer",
+        "id": 2
+      },
+      {
+        "birth": "1982-12-16",
+        "enrollment": "2015-08-01",
+        "lastName": "Saunders",
+        "firstName": "Earnestine",
+        "id": 3
+      },
+      {
+        "birth": "1990-09-02",
+        "enrollment": "2015-08-01",
+        "lastName": "Frederick",
+        "firstName": "Faulkner",
+        "id": 4
+      },
+      {
+        "birth": "1978-04-25",
+        "enrollment": "2015-08-01",
+        "lastName": "Richmond",
+        "firstName": "Gross",
+        "id": 5
+      },
+      {
+        "birth": "1977-09-06",
+        "enrollment": "2015-08-01",
+        "lastName": "Pickett",
+        "firstName": "Amber",
+        "id": 6
+      },
+      {
+        "birth": "1976-12-06",
+        "enrollment": "2015-08-01",
+        "lastName": "Blackwell",
+        "firstName": "Hallie",
+        "id": 7
+      },
+      {
+        "birth": "2008-07-03",
+        "enrollment": "2015-08-01",
+        "lastName": "Byrd",
+        "firstName": "Stone",
+        "id": 8
+      },
+      {
+        "birth": "1987-09-22",
+        "enrollment": "2015-08-01",
+        "lastName": "Marquez",
+        "firstName": "Justine",
+        "id": 9
+      },
+      {
+        "birth": "2008-08-03",
+        "enrollment": "2015-08-01",
+        "lastName": "Ross",
+        "firstName": "Dominguez",
+        "id": 10
+      },
+      {
+        "birth": "1996-09-26",
+        "enrollment": "2015-08-01",
+        "lastName": "Townsend",
+        "firstName": "Alisa",
+        "id": 11
+      },
+      {
+        "birth": "2007-10-18",
+        "enrollment": "2015-08-01",
+        "lastName": "Shannon",
+        "firstName": "Boyd",
+        "id": 12
+      },
+      {
+        "birth": "1978-05-25",
+        "enrollment": "2015-08-01",
+        "lastName": "Gibbs",
+        "firstName": "Woodward",
+        "id": 13
+      },
+      {
+        "birth": "2008-01-30",
+        "enrollment": "2015-08-01",
+        "lastName": "Rivers",
+        "firstName": "Carla",
+        "id": 14
+      },
+      {
+        "birth": "1975-02-23",
+        "enrollment": "2015-08-01",
+        "lastName": "Santos",
+        "firstName": "Collier",
+        "id": 15
+      },
+      {
+        "birth": "2010-02-11",
+        "enrollment": "2015-08-01",
+        "lastName": "Clemons",
+        "firstName": "Rogers",
+        "id": 16
+      },
+      {
+        "birth": "1979-12-07",
+        "enrollment": "2015-08-01",
+        "lastName": "Snyder",
+        "firstName": "Cristina",
+        "id": 17
+      },
+      {
+        "birth": "1988-05-27",
+        "enrollment": "2015-08-01",
+        "lastName": "Meyers",
+        "firstName": "Schneider",
+        "id": 18
+      },
+      {
+        "birth": "2006-01-30",
+        "enrollment": "2015-08-01",
+        "lastName": "Burgess",
+        "firstName": "Washington",
+        "id": 19
+      },
+      {
+        "birth": "2005-03-10",
+        "enrollment": "2015-08-01",
+        "lastName": "Arnold",
+        "firstName": "Lilian",
+        "id": 20
+      },
+      {
+        "birth": "1983-07-31",
+        "enrollment": "2015-08-01",
+        "lastName": "Rodriguez",
+        "firstName": "Miles",
+        "id": 21
+      },
+      {
+        "birth": "2007-04-24",
+        "enrollment": "2015-08-01",
+        "lastName": "Hill",
+        "firstName": "Wilkerson",
+        "id": 22
+      },
+      {
+        "birth": "2015-02-16",
+        "enrollment": "2015-08-01",
+        "lastName": "Landry",
+        "firstName": "Velez",
+        "id": 23
+      },
+      {
+        "birth": "1982-07-04",
+        "enrollment": "2015-08-01",
+        "lastName": "Ashley",
+        "firstName": "Nielsen",
+        "id": 24
+      }
+    ],
+    "professor": {
+      "lastName": "Hogan",
+      "firstName": "Cora",
+      "id": 3
+    },
+    "description": "Bacon ipsum dolor amet beef ribs leberkas alcatra swine, tri-tip landjaeger kevin t-bone short loin pastrami sirloin. Turkey capicola beef ribs short ribs, pig tail flank ball tip spare ribs sirloin pork chop. Turkey jerky kielbasa, prosciutto boudin meatloaf tri-tip. Drumstick pork chop kielbasa picanha tongue shankle bresaola corned beef pancetta ball tip flank jowl shank. Ribeye meatball pork chop, turkey tenderloin ball tip strip steak corned beef pork loin picanha shoulder drumstick frankfurter filet mignon. Pastrami alcatra filet mignon doner spare ribs jerky cow. Andouille kielbasa corned beef pig, jowl frankfurter pancetta meatball porchetta doner. Beef ribs cupim t-bone drumstick capicola kielbasa tenderloin swine turkey. Ground round pork tongue venison short loin biltong fatback strip steak beef boudin andouille shankle. Boudin jerky bacon, shoulder filet mignon shankle pork chop venison pork shank t-bone kielbasa ham pork loin. Kevin frankfurter tenderloin landjaeger tri-tip.",
+    "code": "MAG104",
+    "name": "Herbology",
+    "id": 4
+  },
+  {
+    "students": [
+      {
+        "birth": "2001-02-01",
+        "enrollment": "2015-08-01",
+        "lastName": "Gardner",
+        "firstName": "Sims",
+        "id": 0
+      },
+      {
+        "birth": "2009-05-04",
+        "enrollment": "2015-08-01",
+        "lastName": "Horn",
+        "firstName": "Tamara",
+        "id": 1
+      },
+      {
+        "birth": "1993-08-15",
+        "enrollment": "2015-08-01",
+        "lastName": "Cook",
+        "firstName": "Sawyer",
+        "id": 2
+      },
+      {
+        "birth": "1982-12-16",
+        "enrollment": "2015-08-01",
+        "lastName": "Saunders",
+        "firstName": "Earnestine",
+        "id": 3
+      },
+      {
+        "birth": "1990-09-02",
+        "enrollment": "2015-08-01",
+        "lastName": "Frederick",
+        "firstName": "Faulkner",
+        "id": 4
+      },
+      {
+        "birth": "1978-04-25",
+        "enrollment": "2015-08-01",
+        "lastName": "Richmond",
+        "firstName": "Gross",
+        "id": 5
+      },
+      {
+        "birth": "1977-09-06",
+        "enrollment": "2015-08-01",
+        "lastName": "Pickett",
+        "firstName": "Amber",
+        "id": 6
+      },
+      {
+        "birth": "1976-12-06",
+        "enrollment": "2015-08-01",
+        "lastName": "Blackwell",
+        "firstName": "Hallie",
+        "id": 7
+      },
+      {
+        "birth": "2008-07-03",
+        "enrollment": "2015-08-01",
+        "lastName": "Byrd",
+        "firstName": "Stone",
+        "id": 8
+      },
+      {
+        "birth": "1987-09-22",
+        "enrollment": "2015-08-01",
+        "lastName": "Marquez",
+        "firstName": "Justine",
+        "id": 9
+      },
+      {
+        "birth": "2008-08-03",
+        "enrollment": "2015-08-01",
+        "lastName": "Ross",
+        "firstName": "Dominguez",
+        "id": 10
+      },
+      {
+        "birth": "1996-09-26",
+        "enrollment": "2015-08-01",
+        "lastName": "Townsend",
+        "firstName": "Alisa",
+        "id": 11
+      },
+      {
+        "birth": "2007-10-18",
+        "enrollment": "2015-08-01",
+        "lastName": "Shannon",
+        "firstName": "Boyd",
+        "id": 12
+      },
+      {
+        "birth": "1978-05-25",
+        "enrollment": "2015-08-01",
+        "lastName": "Gibbs",
+        "firstName": "Woodward",
+        "id": 13
+      },
+      {
+        "birth": "2008-01-30",
+        "enrollment": "2015-08-01",
+        "lastName": "Rivers",
+        "firstName": "Carla",
+        "id": 14
+      },
+      {
+        "birth": "1975-02-23",
+        "enrollment": "2015-08-01",
+        "lastName": "Santos",
+        "firstName": "Collier",
+        "id": 15
+      },
+      {
+        "birth": "2010-02-11",
+        "enrollment": "2015-08-01",
+        "lastName": "Clemons",
+        "firstName": "Rogers",
+        "id": 16
+      },
+      {
+        "birth": "1979-12-07",
+        "enrollment": "2015-08-01",
+        "lastName": "Snyder",
+        "firstName": "Cristina",
+        "id": 17
+      },
+      {
+        "birth": "1988-05-27",
+        "enrollment": "2015-08-01",
+        "lastName": "Meyers",
+        "firstName": "Schneider",
+        "id": 18
+      },
+      {
+        "birth": "2006-01-30",
+        "enrollment": "2015-08-01",
+        "lastName": "Burgess",
+        "firstName": "Washington",
+        "id": 19
+      },
+      {
+        "birth": "2005-03-10",
+        "enrollment": "2015-08-01",
+        "lastName": "Arnold",
+        "firstName": "Lilian",
+        "id": 20
+      },
+      {
+        "birth": "1983-07-31",
+        "enrollment": "2015-08-01",
+        "lastName": "Rodriguez",
+        "firstName": "Miles",
+        "id": 21
+      },
+      {
+        "birth": "2007-04-24",
+        "enrollment": "2015-08-01",
+        "lastName": "Hill",
+        "firstName": "Wilkerson",
+        "id": 22
+      },
+      {
+        "birth": "2015-02-16",
+        "enrollment": "2015-08-01",
+        "lastName": "Landry",
+        "firstName": "Velez",
+        "id": 23
+      },
+      {
+        "birth": "1982-07-04",
+        "enrollment": "2015-08-01",
+        "lastName": "Ashley",
+        "firstName": "Nielsen",
+        "id": 24
+      }
+    ],
+    "professor": {
+      "lastName": "Briggs",
+      "firstName": "Head",
+      "id": 4
+    },
+    "description": "Bacon ipsum dolor amet beef ribs leberkas alcatra swine, tri-tip landjaeger kevin t-bone short loin pastrami sirloin. Turkey capicola beef ribs short ribs, pig tail flank ball tip spare ribs sirloin pork chop. Turkey jerky kielbasa, prosciutto boudin meatloaf tri-tip. Drumstick pork chop kielbasa picanha tongue shankle bresaola corned beef pancetta ball tip flank jowl shank. Ribeye meatball pork chop, turkey tenderloin ball tip strip steak corned beef pork loin picanha shoulder drumstick frankfurter filet mignon. Pastrami alcatra filet mignon doner spare ribs jerky cow. Andouille kielbasa corned beef pig, jowl frankfurter pancetta meatball porchetta doner. Beef ribs cupim t-bone drumstick capicola kielbasa tenderloin swine turkey. Ground round pork tongue venison short loin biltong fatback strip steak beef boudin andouille shankle. Boudin jerky bacon, shoulder filet mignon shankle pork chop venison pork shank t-bone kielbasa ham pork loin. Kevin frankfurter tenderloin landjaeger tri-tip.",
+    "code": "MAG103",
+    "name": "History of Magic",
+    "id": 5
+  }
+]
