@@ -35,14 +35,14 @@ public class Course {
     private String code;
     @Column(name = "description", columnDefinition = "TEXT", nullable = false)
     private String description;
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @ManyToOne(fetch = FetchType.EAGER, optional = false)
     @JoinTable(name = "teaches",
             joinColumns = {@JoinColumn(name = "course_id", nullable = false, referencedColumnName = "id",
                     foreignKey = @ForeignKey(ConstraintMode.PROVIDER_DEFAULT))},
             inverseJoinColumns = {@JoinColumn(name = "professor_id", nullable = false, referencedColumnName = "id",
                     foreignKey = @ForeignKey(ConstraintMode.PROVIDER_DEFAULT))})
     private Professor professor;
-    @ManyToMany(fetch = FetchType.LAZY)
+    @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(name = "enrolled",
             uniqueConstraints = {@UniqueConstraint(name = "ux_course_student", columnNames = {"course_id", "student_id"})},
             joinColumns = {@JoinColumn(name = "course_id", nullable = false, referencedColumnName = "id",
