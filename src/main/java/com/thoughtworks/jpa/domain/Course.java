@@ -1,9 +1,7 @@
 package com.thoughtworks.jpa.domain;
 
-
 import com.google.common.collect.Lists;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.ConstraintMode;
 import javax.persistence.Entity;
@@ -35,14 +33,14 @@ public class Course {
     private String code;
     @Column(name = "description", columnDefinition = "TEXT", nullable = false)
     private String description;
-    @ManyToOne(fetch = FetchType.EAGER, optional = false)
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinTable(name = "teaches",
             joinColumns = {@JoinColumn(name = "course_id", nullable = false, referencedColumnName = "id",
                     foreignKey = @ForeignKey(ConstraintMode.PROVIDER_DEFAULT))},
             inverseJoinColumns = {@JoinColumn(name = "professor_id", nullable = false, referencedColumnName = "id",
                     foreignKey = @ForeignKey(ConstraintMode.PROVIDER_DEFAULT))})
     private Professor professor;
-    @ManyToMany(fetch = FetchType.EAGER)
+    @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(name = "enrolled",
             uniqueConstraints = {@UniqueConstraint(name = "ux_course_student", columnNames = {"course_id", "student_id"})},
             joinColumns = {@JoinColumn(name = "course_id", nullable = false, referencedColumnName = "id",

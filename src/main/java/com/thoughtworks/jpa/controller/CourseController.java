@@ -1,6 +1,5 @@
 package com.thoughtworks.jpa.controller;
 
-import com.thoughtworks.jpa.domain.Course;
 import com.thoughtworks.jpa.repository.CourseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -19,13 +18,13 @@ public class CourseController {
 
     @RequestMapping(method = RequestMethod.GET)
     @ResponseBody
-    public List<Course> getCourses() {
+    public List<com.thoughtworks.jpa.domain.Course> getCourses() {
         return this.repository.findAll();
     }
 
     @RequestMapping("/{id}")
     @ResponseBody
-    public Course getCourse(@PathVariable("id") Long id) {
+    public com.thoughtworks.jpa.domain.Course getCourse(@PathVariable("id") Long id) {
         return this.repository.findOne(id);
     }
 }
