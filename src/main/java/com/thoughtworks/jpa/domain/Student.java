@@ -1,37 +1,28 @@
 package com.thoughtworks.jpa.domain;
 
+import javax.persistence.Column;
+import javax.persistence.ConstraintMode;
+import javax.persistence.Entity;
+import javax.persistence.ForeignKey;
+import javax.persistence.PrimaryKeyJoinColumn;
+import javax.persistence.Table;
 import java.time.LocalDate;
 
-public class Student {
-    private Long id;
-    private String firstName;
-    private String lastName;
-    private LocalDate birth;
+@Entity
+@Table(name = "student")
+@PrimaryKeyJoinColumn(name = "id",
+        foreignKey = @ForeignKey(name = "student_person_fk", value = ConstraintMode.CONSTRAINT))
+public class Student extends Person {
+    @Column(name = "enrollment_date", nullable = false)
     private LocalDate enrollment;
 
-    Student(){}
-
-    public Student(Long id, String firstName, String lastName, LocalDate birth, LocalDate enrollment) {
-        this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.birth = birth;
+    Student() {
+        super();
     }
 
-    public Long getId() {
-        return id;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public LocalDate getBirth() {
-        return birth;
+    public Student(String firstName, String lastName, LocalDate birth, LocalDate enrollment) {
+        super(firstName, lastName, birth);
+        this.enrollment = enrollment;
     }
 
     public LocalDate getEnrollment() {
