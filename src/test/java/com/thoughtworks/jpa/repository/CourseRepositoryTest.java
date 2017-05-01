@@ -19,8 +19,11 @@ import static com.github.springtestdbunit.assertion.DatabaseAssertionMode.NON_ST
 import static com.github.springtestdbunit.assertion.DatabaseAssertionMode.NON_STRICT_UNORDERED;
 import static com.google.common.collect.Lists.newArrayList;
 import static com.thoughtworks.jpa.domain.Professor.Type.ADJUNCT;
+import static com.thoughtworks.jpa.domain.specifications.CourseSpecifications.withFirstName;
+import static com.thoughtworks.jpa.domain.specifications.CourseSpecifications.withLastName;
 import static java.time.LocalDate.of;
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.springframework.data.jpa.domain.Specifications.where;
 
 public class CourseRepositoryTest extends BaseRepositoryTest {
 
@@ -108,6 +111,14 @@ public class CourseRepositoryTest extends BaseRepositoryTest {
             type = DatabaseOperation.CLEAN_INSERT)
     public void shouldFindCoursesByProfessorsFirstName() {
         List<Course> courses = repository.findByProfessorLastName("Snape");
+        assertThat(courses).isNotEmpty().hasSize(3);
+    }
+
+    @Test
+    @DatabaseSetup(value = "classpath:datasets/course/shouldFindAllWithSpecifications.xml",
+            type = DatabaseOperation.CLEAN_INSERT)
+    public void shouldFindAllWithSpecifications() {
+        List<Course> courses = repository.findAll(where(withFirstName("Severus")).and(withLastName("Snape")));
         assertThat(courses).isNotEmpty().hasSize(3);
     }
 }
