@@ -15,6 +15,9 @@ import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
+import javax.persistence.NamedAttributeNode;
+import javax.persistence.NamedEntityGraph;
+import javax.persistence.NamedEntityGraphs;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 import java.util.List;
@@ -26,6 +29,8 @@ import java.util.Set;
         uniqueConstraints = {
                 @UniqueConstraint(name = "ux_course", columnNames = "code")
         })
+@NamedEntityGraph(name = "Course.all",
+        attributeNodes = {@NamedAttributeNode("professor"), @NamedAttributeNode("students")})
 public class Course {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
