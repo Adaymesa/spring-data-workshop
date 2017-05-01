@@ -12,4 +12,6 @@ public interface CourseRepository extends JpaRepository<Course, Long> {
     @Override
     @Query("select distinct c from Course c left join fetch c.professor left join fetch c.students")
     List<Course> findAll();
+
+    List<Course> findByProfessorLastName(String lastName);
 }

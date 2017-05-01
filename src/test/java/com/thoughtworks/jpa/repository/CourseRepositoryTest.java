@@ -102,4 +102,12 @@ public class CourseRepositoryTest extends BaseRepositoryTest {
         course.getStudents().clear();
         repository.saveAndFlush(course);
     }
+
+    @Test
+    @DatabaseSetup(value = "classpath:datasets/course/shouldFindCoursesByProfessorsFirstName.xml",
+            type = DatabaseOperation.CLEAN_INSERT)
+    public void shouldFindCoursesByProfessorsFirstName() {
+        List<Course> courses = repository.findByProfessorLastName("Snape");
+        assertThat(courses).isNotEmpty().hasSize(3);
+    }
 }
